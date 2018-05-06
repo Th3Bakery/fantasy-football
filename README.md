@@ -1,25 +1,26 @@
-# fantasy-football
+# 2018 NFL Rookie Draft
 
-Analysis of Fantasy Football Data &amp; Players
+# Extracted Complete Draft Order from ESPN
 
-# Extracting data using Beautiful Soup
+scrape_espn.py was created to pull the 2018 draft order from ESPN's website.  If you run that script you will extract information about all players (including defense) from all 7 rounds into a .csv similar to the format below.  The .csv is also saved in this repository ESPN_Draft_Order_Scrape.csv. 
 
-scrape_espn.py was created to pull the 2018 draft order from ESPN's website.  If you run that script you will extract information about all players from all 7 rounds into a .csv similar to the format below.  The .csv is also saved in this repository. 
+Below is an image showing only the first round, but data from all 7 rounds is in the .csv.
 
 ![DraftOrder2018](DraftOrder2018.png)
 
 
-# Filtering by position in a pandas dataframe
+# Filtering by position
 
-To look at the data filtered by position - open Filtered_ESPN_Draft_Order.csv
+The players filtered by position (QB,RB,WR,TE) is shown below and also contained in: Filtered_ESPN_Draft_Order.csv
 
 ![FilteredByPosition](Filtered_NFL_Draft_Order_2018.png)
 
 ![FilteredByPosition2](Filtered_NFL_Draft_Order_Pt2.png)
 
+
 # Sorting by pick #:
 
-To look at the Draft order filtered by critical positions (QB,RB,WR,TE) and sorted in the order that those players were picked take a look at Sorted_Filtered_ESPN_Draft_Order.csv
+The players filtered by position (QB,RB,WR,TE) and sorted in the order that those players were drafted is displayed below and also contained in: Sorted_Filtered_ESPN_Draft_Order.csv
 
 ![SortedFilteredByPosition](Sorted_Filtered_ESPN_Draft_Order.png)
 
